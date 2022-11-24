@@ -193,3 +193,64 @@ attack your ankles chase the red dot, hairball
 */----------------------------------------/*
 <input type="text">
 */----------------------------------------/*
+
+
+*/----------------------------------------/*
+<input type="text" placeholder="cat photo URL">
+*/----------------------------------------/*
+
+
+*/----------------------------------------/*
+<form action="https://www.freecatphotoapp.com/submit-cat-photo">
+  <input type="text" placeholder="cat photo URL">
+</form>
+*/----------------------------------------/*
+
+
+*/----------------------------------------/*
+<button type="submit">Submit</button>
+*/----------------------------------------/*
+
+
+*/----------------------------------------/*
+<input required type="text" placeholder="cat photo URL">
+*/----------------------------------------/*
+
+
+*/----------------------------------------/*
+<label for="indoor"> 
+  <input id="indoor" type="radio" name="indoor-outdoor">Indoor 
+</label>
+<label for="outdoor"> 
+  <input id="outdoor" type="radio" name="indoor-outdoor">Outdoor 
+</label>
+*/----------------------------------------/*
+
+
+*/----------------------------------------/*
+<label for="one"><input id="one" type="checkbox" name="personality"> One</label>
+<label for="two"><input id="two" type="checkbox" name="personality"> Two</label>
+<label for="three"><input id="three" type="checkbox" name="personality"> Three</label>
+*/----------------------------------------/*
+
+
+*/----------------------------------------/*
+
+*/----------------------------------------/*
+
+
+*/----------------------------------------/*
+
+*/----------------------------------------/*
+
+
+*/----------------------------------------/*
+
+*/----------------------------------------/*
+
+
+*/----------------------------------------/*
+
+*/----------------------------------------/*
+
+
