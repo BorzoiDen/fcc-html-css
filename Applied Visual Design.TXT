@@ -195,52 +195,129 @@ h2 {
 
 
 */----------------------------------------/*
-
+#navbar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #767676;
+  }
 */----------------------------------------/*
 
 
 */----------------------------------------/*
-
+#left {
+      float: left;
+      width: 50%;
+    }
+    #right {
+      float: right;
+      width: 40%;
+    }
 */----------------------------------------/*
 
 
 */----------------------------------------/*
-
+.first {
+    background-color: red;
+    position: absolute;
+    z-index: 2;
+  }
 */----------------------------------------/*
 
 
 */----------------------------------------/*
-
+div {
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+  }
 */----------------------------------------/*
 
 
 */----------------------------------------/*
-
+<style>
+  body {
+    background-color: #FFFFFF;
+  }
+  .blue {
+    background-color: #0000FF;
+  }
+  .yellow {
+    background-color: #FFFF00;
+  }
+  div {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+  }
+</style>
+<div class="blue"></div>
+<div class="yellow"></div>
 */----------------------------------------/*
 
 
 */----------------------------------------/*
-
+ .orange {
+    background-color: #FF7F00;
+  }
+  .cyan {
+    background-color: #00FFFF;
+  }
+  .raspberry {
+    background-color: #FF007F;
+  }
 */----------------------------------------/*
 
 
 */----------------------------------------/*
-
+<style>
+  body {
+    background-color: white;
+  }
+  header {
+    background-color: #09A7A1;
+    color: white;
+    padding: 0.25em;
+  }
+  h2 {
+    color: #09A7A1;
+  }
+  button {
+    background-color: #FF790E;
+  }
+  footer {
+    background-color: #09A7A1;
+    color: white;
+    padding: 0.5em;
+  }
+</style>
 */----------------------------------------/*
 
 
 */----------------------------------------/*
-
+.green {
+    background-color: hsl(120, 100%, 50%);
+  }
+  .cyan {
+    background-color: hsl(180, 100%, 50%);
+  }
+  .blue {
+    background-color: hsl(240, 100%, 50%);
+  }
 */----------------------------------------/*
 
 
 */----------------------------------------/*
-
+ nav {
+    background-color: hsl(180, 80%, 25%);
+  }
 */----------------------------------------/*
 
 
 */----------------------------------------/*
-
+background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
 */----------------------------------------/*
 
 
