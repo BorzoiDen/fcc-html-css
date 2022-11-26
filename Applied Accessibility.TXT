@@ -74,27 +74,40 @@
 
 
 */----------------------------------------/*
-
+<figure>
+  <!-- Stacked bar chart will go here -->
+  <br>
+  <figcaption>Breakdown per week of time to spend 
+  training in stealth, combat, and weapons.</figcaption>
+</figure>
 */----------------------------------------/*
 
 
 */----------------------------------------/*
-
+<label for="email">Email:</label>
 */----------------------------------------/*
 
 
 */----------------------------------------/*
-
+<fieldset>
+  <legend>What level ninja are you?</legend>
+  <input id="newbie" type="radio" name="levels" value="newbie">
+  <label for="newbie">Newbie Kitten</label><br>
+  <input id="intermediate" type="radio" name="levels" value="intermediate">
+  <label for="intermediate">Developing Student</label><br>
+  <input id="master" type="radio" name="levels" value="master">
+  <label for="master">Master</label>
+</fieldset>
 */----------------------------------------/*
 
 
 */----------------------------------------/*
-
+<input type="date" id="pickdate" name="date">
 */----------------------------------------/*
 
 
 */----------------------------------------/*
-
+<time datetime="2016-09-15">Thursday, September 15<sup>th</sup></time>
 */----------------------------------------/*
 
 
