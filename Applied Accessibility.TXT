@@ -142,22 +142,25 @@ color: #003366;
 
 
 */----------------------------------------/*
-
+<a href="">information about batteries</a>
 */----------------------------------------/*
 
 
 */----------------------------------------/*
+ <h2><a accesskey="g" id="first" href="#">The Garfield Files: Lasagna as Training Fuel?</a></h2>
 
+  <h2><a accesskey="c" id="second" href="#">Is Chuck Norris a Cat Person?</a></h2>
 */----------------------------------------/*
 
 
 */----------------------------------------/*
-
+<p tabindex="0">>Instructions: Fill in ALL your information then click <b>Submit</b></p>
 */----------------------------------------/*
 
 
 */----------------------------------------/*
-
+<input tabindex="1" type="search" name="search" id="search">
+<input tabindex="2"type="submit" name="submit" value="Submit" id="submit">
 */----------------------------------------/*
 
 
