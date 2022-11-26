@@ -206,27 +206,66 @@ flex-wrap: wrap;
 
 
 */----------------------------------------/*
+ #box-1 {
+    background-color: dodgerblue;
+    height: 200px;
+    flex-basis: 10em;
+  }
 
+  #box-2 {
+    background-color: orangered;
+    height: 200px;
+    flex-basis: 20em;
+  }
 */----------------------------------------/*
 
 
 */----------------------------------------/*
+#box-1 {
+    background-color: dodgerblue;
+    flex: 2 2 150px;
+    height: 200px;
+  }
 
+  #box-2 {
+    background-color: orangered;
+    flex: 1 1 150px;
+    height: 200px;
+  }
 */----------------------------------------/*
 
 
 */----------------------------------------/*
+#box-1 {
+    background-color: dodgerblue;
+    order: 2;
+    height: 200px;
+    width: 200px;
+  }
 
+  #box-2 {
+    background-color: orangered;
+    order: 1;
+    height: 200px;
+    width: 200px;
+  }
 */----------------------------------------/*
 
 
 */----------------------------------------/*
+#box-1 {
+    background-color: dodgerblue;
+    align-self: center;
+    height: 200px;
+    width: 200px;
+  }
 
-*/----------------------------------------/*
-
-
-*/----------------------------------------/*
-
+  #box-2 {
+    background-color: orangered;
+    align-self: flex-end;
+    height: 200px;
+    width: 200px;
+  }
 */----------------------------------------/*
 
 
