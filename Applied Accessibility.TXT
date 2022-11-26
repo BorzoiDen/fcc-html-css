@@ -1,25 +1,41 @@
 */----------------------------------------/*
-
+<img src="doingKarateWow.jpeg" alt="text">
 */----------------------------------------/*
 
 
 */----------------------------------------/*
-
+<img src="samuraiSwords.jpeg" alt="">
 */----------------------------------------/*
 
 
 */----------------------------------------/*
+<h1>How to Become a Ninja</h1>
+<main>
+  <h2>Learn the Art of Moving Stealthily</h2>
+  <h3>How to Hide in Plain Sight</h3>
+  <h3>How to Climb a Wall</h3>
 
+  <h2>Learn the Art of Battle</h2>
+  <h3>How to Strengthen your Body</h3>
+  <h3>How to Fight like a Ninja</h3>
+
+  <h2>Learn the Art of Living with Honor</h2>
+  <h3>How to Breathe Properly</h3>
+  <h3>How to Simplify your Life</h3>
+</main>
 */----------------------------------------/*
 
 
 */----------------------------------------/*
-
+<main></main>
 */----------------------------------------/*
 
 
 */----------------------------------------/*
-
+ <article>
+    <h2>The Garfield Files: Lasagna as Training Fuel?</h2>
+    <p>The internet is littered with varying opinions on nutritional paradigms, from catnip paleo to hairball cleanses. But let's turn our attention to an often overlooked fitness fuel, and examine the protein-carb-NOM trifecta that is lasagna...</p>
+  </article>
 */----------------------------------------/*
 
 
