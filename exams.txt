@@ -1,0 +1,238 @@
+//============================//
+<style>
+    img{
+      display: block;
+      max-width: 100%;
+      height: auto;
+      margin: 0 auto;
+    }
+  </style>
+
+<main id="main">
+    <h1 id="title">Dr. Norman Borlaug</h1>
+    <div id="img-div">
+      <img src="#" alt="" id="image">
+      <div id="img-caption">Dr. Norman Borlaug, third from the left, trains biologists in Mexico on how to increase wheat yields - part of his life-long war on hunger.</div>
+    </div>
+    <div id="tribute-info">Here's a time line of Dr. Borlaug's life:</div>
+    <a target="_blank" href="https://en.wikipedia.org/wiki/Norman_Borlaug" id="tribute-link">Wikipedia entry</a>
+  </main>
+
+  //============================//
+
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form" action="#">
+      <label for="name" id="name-label">Name</label>
+      <input required id="name" autocomplete="off" type="text" name="name" placeholder="Enter your name">
+      <label for="email" id="email-label">Email</label>
+      <input required type="email" name="email" id="email"  placeholder="Enter your Email">
+      <label for="age" id="number-label">Age(optional)</label>
+      <input type="number" name="age" id="number" min="10" max="99"  placeholder="Age">
+      <select name="" id="dropdown">
+        <option value="Variant 1">Variant 1</option>
+        <option value="Variant 2">Variant 2</option>
+      </select>
+      <input value="Variant 11" type="radio" name="radio">
+      <input value="Variant 12" type="radio" name="radio">
+      <input value="1" type="checkbox" name="" id="">
+      <input value="2" type="checkbox" name="" id="">
+      <input value="3" type="checkbox" name="" id="">
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+      <input id="submit" type="submit" value="ok">
+    </form>
+
+      //============================//
+
+      <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <style>
+    nav{
+      position: fixed;
+      top: 0;
+      left: 0;
+      display: flex;
+      z-index: 1000;
+    }
+    @media (max-width: 700px) {
+      nav{
+        flex-wrap: wrap;
+      }
+    }
+  </style>
+  <header id="header">
+    <nav id="nav-bar">
+      <a href="#main" class="nav-link">link 1</a>
+      <a href="#main" class="nav-link">link 2</a>
+      <a href="#main" class="nav-link">link 3</a>
+    </nav>
+    <img src="#" alt="logo" id="header-img">
+    <video id="video" src="#" controls></video>
+    <form id="form" method="post" action="https://www.freecodecamp.com/email-submit">
+      <label for="email" id="email-label">Email</label>
+      <input required type="email" name="email" id="email"  placeholder="Enter your Email">
+      <input id="submit" type="submit" value="ok">
+    </form>
+  </header>
+  <main id="main">
+  </main>
+</body>
+</html>
+
+//============================//
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <style>
+    nav{
+      position: relative;
+      top: 0;
+      left: 0;
+      display: flex;
+      z-index: 5;
+    }
+    @media (max-width: 700px) {
+      nav{
+        flex-wrap: wrap;
+      }
+    }
+  </style>
+  <main id="main-doc">
+    <nav id="navbar">
+        <header>java </header>
+        <a href="#java" class="nav-link">java </a>
+        <a href="#python" class="nav-link">python </a>
+        <a href="#ruby" class="nav-link">ruby </a>
+        <a href="#javaScript" class="nav-link">javaScript </a>
+        <a href="#php" class="nav-link">php</a>
+      </nav>
+    <section id="java" class="main-section">
+      <header>java</header>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing eli.</p>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing eli.</p>
+      <code>Lorem ipsum dolor sit amet.</code>
+      <ul>
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+        <li>List item 4</li>
+        <li>List item 5</li>
+      </ul>
+    </section>
+    <section id="python" class="main-section">
+      <header>python</header>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing eli.</p>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing eli.</p>
+      <code>Lorem ipsum dolor sit amet.</code>
+      <ul>
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+        <li>List item 4</li>
+        <li>List item 5</li>
+      </ul>
+    </section>
+    <section id="ruby" class="main-section">
+      <header>ruby</header>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing eli.</p>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing eli.</p>
+      <code>Lorem ipsum dolor sit amet.</code>
+      <ul>
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+        <li>List item 4</li>
+        <li>List item 5</li>
+      </ul>
+    </section>
+    <section id="javaScript" class="main-section">
+      <header>javaScript</header>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing eli.</p>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing eli.</p>
+      <code>Lorem ipsum dolor sit amet.</code>
+      <ul>
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+        <li>List item 4</li>
+        <li>List item 5</li>
+      </ul>
+    </section>
+    <section id="php" class="main-section">
+      <header>php</header>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing eli.</p>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing eli.</p>
+      <code>Lorem ipsum dolor sit amet.</code>
+      <ul>
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+        <li>List item 4</li>
+        <li>List item 5</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
+
+//============================//
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <style>
+    nav{
+      position: fixed;
+      top: 0;
+      left: 0;
+      display: flex;
+      z-index: 5;
+    }
+    @media (max-width: 700px) {
+      nav{
+        flex-wrap: wrap;
+      }
+    }
+    #welcome-section{
+      height: 100vh;
+    }
+  </style>
+  <header id="header">
+    <nav id="navbar">
+      <a href="#projects">My projects</a>
+    </nav>
+  </header>
+  <main id="main-doc">
+    <section id="welcome-section">
+      <h1>Hello! My name is Den</h1>
+      <a id="profile-link" href="https://github.com/BorzoiDen" target="_blank">My Github profile</a>
+    </section>
+    <section id="projects">
+      <h2 class="project-tile">First project</h2>
+      <a href="#" class="project-link">My project</a>
+    </section>
+  </main>
+  <footer>
+  </footer>
+</body>
+</html>
